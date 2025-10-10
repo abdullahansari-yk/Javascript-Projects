@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 180px;
+}
+.canvas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: 4px solid black;
+}
+#grey {
+  background-color: gray;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}

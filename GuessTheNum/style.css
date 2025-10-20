@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.501);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  padding: 50px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+#guess {
+  font-size: 60px;
+}
+#subt {
+  background-color: black;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+}
+
+#guessField {
+  padding: 5px 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+p {
+  font-size: 20px;
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.756);
+  color: green;
+  padding: 15px;
+}

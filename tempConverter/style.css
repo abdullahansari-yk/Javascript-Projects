@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#main {
+  width: 60%;
+  height: 80%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#celsius {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#fahrenhait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+#celsius_temperature {
+  font-size: 40px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+}
+#fahrenheit_temperature {
+  font-size: 40px;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  background-color: black;
+  border: 1px solid white;
+  color: wheat;
+}
+.btn:hover {
+  scale: 1.01;
+}
+.result {
+  font-size: 30px;
+  color: green;
+}
